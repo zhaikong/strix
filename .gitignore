@@ -24,14 +24,12 @@ wheels/
 venv/
 env/
 ENV/
-.env
 .venv
 pip-log.txt
 pip-delete-this-directory.txt
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -40,7 +38,6 @@ pip-delete-this-directory.txt
 .settings/
 
 # FastAPI
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -85,3 +82,5 @@ Thumbs.db
 schema.graphql
 
 .opencode/
+config.bat
+node_modules
